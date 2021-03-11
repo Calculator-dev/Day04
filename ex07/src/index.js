@@ -3,8 +3,8 @@ function main(numOne, numTwo){
     var numTwo;
     var remainder = numOne % numTwo;
 
-    parsInteger(numOne);
-    parsInteger(numTwo);
+    parseInteger(numOne);
+    parseInteger(numTwo);
 
     return remainder;
 }
