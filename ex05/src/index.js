@@ -2,8 +2,12 @@ function main(numOne, numTwo) {
 
     var numOne;
     var numTwo;
-    var product = numOne * numTwo;
+    var product = (numOne * numTwo);
 
+    parseFloat(product);
+    parseFloat(numOne);
+    parseFloat(numTwo);
+    
     return product;
 }
 

@@ -2,8 +2,12 @@ function main(numOne, numTwo){
 
     var numOne;
     var numTwo;
-    var myQuotient = (numOne / numTwo).toFixed(1);
+    var myQuotient = (numOne / numTwo);
 
+    parseFloat(numOne);
+    parseFloat(numTwo);
+    parseFloat(myQuotient);
+    
     return myQuotient;
 }
 
