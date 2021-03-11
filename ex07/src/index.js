@@ -3,6 +3,9 @@ function main(numOne, numTwo){
     var numTwo;
     var remainder = numOne % numTwo;
 
+    parsInteger(numOne);
+    parsInteger(numTwo);
+
     return remainder;
 }
 
