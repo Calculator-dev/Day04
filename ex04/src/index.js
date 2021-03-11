@@ -1,3 +1,4 @@
+//@ts-check
 function main() {
 
   var myDecimal = 8.2;
