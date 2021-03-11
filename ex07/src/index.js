@@ -2,7 +2,10 @@ function main(numOne, numTwo){
     var numOne;
     var numTwo;
     var remainder = numOne % numTwo;
-
+    
+    parsInteger(numOne);
+    parsInteger(numTwo);
+    
     return remainder;
 }
 
